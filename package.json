@@ -1,0 +1,29 @@
+{
+  "name": "react-virtualized-cssgrid",
+  "version": "0.0.1",
+  "description": "React Virtualization with CSS Grid",
+  "keywords": [
+    "React",
+    "Virtualization",
+    "CSS",
+    "Grid",
+    "CSS Grid"
+  ],
+  "homepage": "https://github.com/davidgumzchoi/react-virtualized-cssgrid",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "author": "David Choi <me@davidschoi.com> (https://www.davidschoi.com/)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/npm/cli.git"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
