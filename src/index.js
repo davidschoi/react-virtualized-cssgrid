@@ -18,7 +18,7 @@ const virtualizedScrollContainerStyles = {
   maxHeight: '240px'
 };
 
-class VirtualizedList extends Component {
+class VirtualizedCSSGrid extends Component {
   state = {
     virtualizedListItems: [],
     paddingTop: 0
@@ -76,4 +76,4 @@ class VirtualizedList extends Component {
   }
 }
 
-export default VirtualizedList;
+export default VirtualizedCSSGrid;
