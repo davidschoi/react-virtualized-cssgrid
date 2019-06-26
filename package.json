@@ -1,6 +1,6 @@
 {
   "name": "react-virtualized-cssgrid",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "React Virtualization with CSS Grid",
   "keywords": [
     "React",
@@ -20,7 +20,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/npm/cli.git"
+    "url": "https://github.com/davidgumzchoi/react-virtualized-cssgrid"
   },
   "dependencies": {
     "react": "^16.8.6",

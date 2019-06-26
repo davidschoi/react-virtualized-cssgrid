@@ -57,15 +57,11 @@ class List extends Component {
 `children` is required and must be provided as an array within the `<VirtualizedCSSGrid />` component.
 
 ```js
-render() {
-  return (
-    <VirtualizedCSSGrid containerWidth={1080} rowHeight={240} columnWidth={360} columns={3} listLength={items.length}>
-      {items.map(el => (
-        <img key={el} src={`https://hiring.verkada.com/thumbs/${el}.jpg`} style={{ width: 360 }} />
-      ))}
-    </VirtualizedCSSGrid>
-  );
-}
+<VirtualizedCSSGrid containerWidth={1080} rowHeight={240} columnWidth={360} columns={3} listLength={items.length}>
+  {items.map(el => (
+    <img key={el} src={`https://hiring.verkada.com/thumbs/${el}.jpg`} style={{ width: 360 }} />
+  ))}
+</VirtualizedCSSGrid>
 ```
 
 ### `className`
