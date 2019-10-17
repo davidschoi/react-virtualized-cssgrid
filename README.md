@@ -17,9 +17,6 @@ npm i react-virtualized-cssgrid
 ### Functional Stateless Component
 
 ```js
-import React from 'react';
-import VirtualizedCSSGrid from 'react-virtualized-cssgrid';
-
 function MyList({ items }) {
   return (
     <VirtualizedCSSGrid containerWidth={1080} rowHeight={240} columnWidth={360} columns={3} listLength={items.length}>
@@ -34,9 +31,6 @@ function MyList({ items }) {
 ### Functional Stateless Component
 
 ```js
-import React from 'react';
-import VirtualizedCSSGrid from 'react-virtualized-cssgrid';
-
 class List extends Component {
   render() {
     return (
